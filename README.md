@@ -1,2 +1,2 @@
 git add .
-git commit -m "Enhanced UI responsiveness and user experience"
+git commit -m "Integrated GitHub API and dynamic profile rendering"
