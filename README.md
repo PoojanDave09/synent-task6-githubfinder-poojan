@@ -108,19 +108,7 @@ https://api.github.com/users/octocat
 
 ---
 
-## Screenshots
 
-Add screenshots here:
-
-### Home Page
-
-![Home Screenshot](screenshots/home.png)
-
-### Search Result
-
-![Result Screenshot](screenshots/result.png)
-
----
 
 ## Future Improvements
 
