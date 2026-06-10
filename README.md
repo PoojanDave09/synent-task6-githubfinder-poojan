@@ -1,2 +1,2 @@
 git add .
-git commit -m "Added loading state and error handling"
+git commit -m "Enhanced UI responsiveness and user experience"
