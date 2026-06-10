@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Profile Finder</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    />
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <main class="container">
+
+        <header class="header">
+            <h1>GitHub Profile Finder</h1>
+            <p>Search and explore GitHub developers instantly.</p>
+
+            <div id="dateTime" class="datetime"></div>
+        </header>
+
+        <section class="search-section">
+
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="usernameInput"
+                    placeholder="Enter GitHub Username..."
+                />
+
+                <button id="searchBtn">
+                    Search
+                </button>
+            </div>
+
+        </section>
+
+        <section class="history-section">
+
+            <div class="history-header">
+                <h3>Recent Searches</h3>
+
+                <button id="clearHistoryBtn" class="clear-btn">
+                    Clear History
+                </button>
+            </div>
+
+            <ul id="historyList"></ul>
+
+        </section>
+
+        <section id="loader" class="loader hidden">
+
+            <div class="spinner"></div>
+
+            <p>Fetching GitHub Profile...</p>
+
+        </section>
+
+        <section id="resultContainer"></section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
