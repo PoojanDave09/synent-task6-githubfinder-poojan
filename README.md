@@ -79,7 +79,7 @@ GitHub-Profile-Finder/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/github-profile-finder.git
+git clone https://github.com/PoojanDave09/github-profile-finder.git
 ```
 
 ### Open Project
